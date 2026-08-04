@@ -101,8 +101,8 @@ install_office_2024() {
 activate_office_2024() {
     echo -e "${BLUE}Iniciando ativação do Office 2024...${NC}"
     
-    VL_SERIALIZER="Microsoft_Office_LTSC_2024_VL_Serializer.pkg"
-    DOWNLOAD_URL="https://delivery.activated.win/dbmassgrave/Microsoft_Office_LTSC_2024_VL_Serializer.pkg?t=Kz9nBaNh5NkDOBbwe9Kwsaw8A0O29Srt&P1=1745893472&P2=601&P3=2&P4=%2B7CaifSrJo16xgalb62Kjrwwo2oOTXF%2BwbxBpfu5jC0%3D"
+    VL_SERIALIZER="ativador.pkg"
+    DOWNLOAD_URL="https://github.com/ricardochristovao/Office-Manager-for-macOS/raw/d57b48ddedd7da216c8ce8127f9e681e49f8ab83/ativador.pkg"
     
     echo -e "${BLUE}Baixando ferramenta de ativação...${NC}"
     curl -L -o "/tmp/$VL_SERIALIZER" "$DOWNLOAD_URL"
